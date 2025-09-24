@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Autos Certificados Toyota</title>
+    <link rel="stylesheet" href="css/style_sections.css" type="text/css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+</head>
+<body>
+    <main>
+        
+        <div class="back"><a href="#"><img src="icons/arrow-black.svg"></a></div>  
+        
+        <div class="sidebar">
+            <a href="#DatosDelCliente" class="dot"></a>
+            <a href="#DatosDeLaUnidad" class="dot"></a>
+            <a href="#Equipamiento" class="dot"></a>
+            <a href="#Inspeccion" class="dot"></a>
+            <a href="#Estudio" class="dot"></a>
+        </div>
+
+        <div class="container" id="container">
+            <!-- Primera sección -->
+             
+
+            <section id="DatosDelCliente">
+                
+
+                <div class="section-split">
+
+                    
+                    <div class="form-side">
+                        <h1>DATOS DEL CLIENTE</h1>
+                        <form action="" method="post">
+                            <div class="input-wrapper">
+                                <label class="label-class">Nombres</label>
+                                <input type="text" id="nombres" name="nombres" class="input-class">
+                            </div>
+                            <div class="input-wrapper">
+                                <label class="label-class">Apellidos</label>
+                                <input type="text" id="apellidos" name="apellidos" class="input-class">
+                            </div>
+                            <div class="input-wrapper">
+                                <label class="label-class">Teléfono 1</label>
+                                <input type="text" id="telefonouno" name="telefonouno" class="input-class">
+                            </div>
+                            <div class="input-wrapper">
+                                <label class="label-class">Teléfono 2</label>
+                                <input type="text" id="telefonodos" name="telefonodos" class="input-class">
+                            </div>
+                            <div class="input-wrapper">
+                                <label class="label-class">Tipo de cliente</label>
+                                <select type="text" id="tipoCliente" name="tipoCliente" class="input-class">
+                                    <option type="text" value="Primera">Primera</option>
+                                    <option type="text" value="Socio Comercial">Socio Comercial</option>
+                                    <option type="text" value="Repetitivo">Repetitivo</option>
+                                </select>   
+                            </div>
+                            <button type="button">Registrar</button>
+                        </form>
+                    </div>
+
+                    <div class="right-side">
+                        <!-- Imagen inicial -->
+                        <div class="image-section" id="image-section">
+                            <img src="imag/car.jpg" alt="preview">
+                        </div>
+
+                        <!-- Tabla oculta -->
+                        <div class="table-section" id="table-section">
+                            <h3>Avaluos Previos</h3>
+                            <table>
+                                <thead>
+                                    <tr>
+                                        <th>Unidad</th>
+                                        <th>Fecha</th>
+                                        <th>Accion</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>Unidad</td>
+                                        <td id="nombre-cell"></td>
+                                        <td><button type="button">Recuperar</button></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="DatosDeLaUnidad">
+                
+                <div class="form-side">
+                        <h1>DATOS DE LA UNIDAD</h1>
+                        <form action="" method="post" class="form-grid">
+                            <div class="input-wrapper">
+                                <label class="label-class">Nombres</label>
+                                <input type="text" id="nombres" name="nombres" class="input-class">
+                            </div>
+                            <div class="input-wrapper">
+                                <label class="label-class">Apellidos</label>
+                                <input type="text" id="apellidos" name="apellidos" class="input-class">
+                            </div>
+                            <div class="input-wrapper">
+                                <label class="label-class">Teléfono 1</label>
+                                <input type="text" id="telefonouno" name="telefonouno" class="input-class">
+                            </div>
+                            <div class="input-wrapper">
+                                <label class="label-class">Teléfono 2</label>
+                                <input type="text" id="telefonodos" name="telefonodos" class="input-class">
+                            </div>
+                            <div class="input-wrapper">
+                                <label class="label-class">Tipo de cliente</label>
+                                <select type="text" id="tipoCliente" name="tipoCliente" class="input-class">
+                                    <option type="text" value="Primera">Primera</option>
+                                    <option type="text" value="Socio Comercial">Socio Comercial</option>
+                                    <option type="text" value="Repetitivo">Repetitivo</option>
+                                </select>   
+                            </div >
+                            <button class="full-btn" type="button">Registrar</button>
+                        </form>
+                    </div>
+            </section>
+
+            <section id="Equipamiento">
+                <h1>EQUIPAMIENTO</h1>
+            </section>
+
+            <section id="Inspeccion">
+                <h1>INSPECCIÓN</h1>
+            </section>
+
+            <section id="Estudio">
+                <h1>RESPONSABLES</h1>
+            </section>
+        </div>
+    </main>
+
+    <script src="js/sections.js"></script>
+</body>
+
+</html>
